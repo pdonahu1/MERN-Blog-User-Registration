@@ -30,7 +30,7 @@ const AuthContextProvider = props => {
     };
     controlAuth()
 
-  }, [])
+  }, [config])
 
   return (
     <AuthContext.Provider value={{ activeUser, setActiveUser, config, setConfig }}>

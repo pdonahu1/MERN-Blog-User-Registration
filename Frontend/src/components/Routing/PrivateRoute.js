@@ -42,6 +42,8 @@ const PrivateRoute =( ) => {
         };
 
         controlAuth()
+        
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [bool,navigate])
 
 

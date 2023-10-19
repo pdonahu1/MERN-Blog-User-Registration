@@ -1,13 +1,13 @@
-import React, { useRef, useContext } from 'react'
-import { useState } from 'react'
-import axios from 'axios'
-import { Link } from 'react-router-dom'
+import React, { useRef, useContext } from 'react';
+import { useState } from 'react';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import { AuthContext } from "../../Context/AuthContext";
-import { AiOutlineUpload } from 'react-icons/ai'
-import { FiArrowLeft } from 'react-icons/fi'
-import '../../Css/AddStory.css'
+import { AiOutlineUpload } from 'react-icons/ai';
+import { FiArrowLeft } from 'react-icons/fi';
+import '../../Css/AddStory.css';
 
 const AddStory = () => {
 
@@ -88,9 +88,9 @@ const AddStory = () => {
                     }}
                     ref={editorEl}
                 />
-                <div class="StoryImageField">
+                <div className="StoryImageField">
                     <AiOutlineUpload />
-                    <div class="txt">
+                    <div className="txt">
                         {image ? image.name :
                             " Include a high-quality image in your story to make it more inviting to readers."
                         }

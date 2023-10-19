@@ -40,7 +40,7 @@ const EditStory = () => {
             }
         }
         getStoryInfo()
-    }, [])
+    }, [config, navigate, slug])
 
     const handleSubmit = async (e) => {
         e.preventDefault();

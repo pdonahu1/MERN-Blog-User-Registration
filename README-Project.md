@@ -17,7 +17,7 @@ Create folder <b>/Backend/config/config.env</b> for MongoDB setup
 NODE_ENV = development<br />
 PORT =5000<br />
 URI =http://localhost:3000<br />
-MONGO_URI ="mongodb+srv://<dbusername>:<dbpassword>@cluster0.rcb0h32.mongodb.net/<dbname>?retryWrites=true&w=majority"
+MONGO_URI =" "<br />
 JWT_SECRET_KEY= "YOUR_SECRETE_KEY"<br />
 JWT_EXPIRE = 60m<br />
 RESET_PASSWORD_EXPIRE = 3600000<br /> 
